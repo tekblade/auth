@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<title>LOGIN PAGE</title>
+</head>
+<body>
+ <h1>ADmin PAnel:</h1>
+ <h1>Login page</h1>
+   <!--  <p th:if="${loginError}" class="error">Wrong user or password</p>   -->
+    <h2>This is logIN form</h2>
+    <form  method="post">
+      <label for="username">Username</label>:
+      <input id="username" name="username" type="text"  /> <br />
+      <label for="password">Password</label>:
+      <input id="password" name="password" type="password"  /> <br />
+      <input type="submit" value="Log in" />
+    </form>
+</body>
+</html>
